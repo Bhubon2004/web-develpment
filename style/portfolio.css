@@ -1,52 +1,99 @@
 /*common shared style*/
+
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
 body {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-  .text-primary {
-    color: #FD6E0A;
-  }
-  .btn-primary{
-    border-radius: 5px;
-    background: #FD6E0A;
-    border: 0;
-    padding: 15px 35px;
-    font-size: 20px;
-    font-weight: 700;
-    color: white;
-  }
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  padding: 15px 32px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
 /*nav related styles*/
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 200px;
 }
-.nav-title{
+.nav-title {
   color: #181818;
-  font-size: 45px ;
+  font-size: 45px;
   font-weight: 800;
+  margin-left: 5%;
+  
 }
 
-nav > ul{
+nav > ul {
   display: flex;
   text-decoration: none;
   list-style: none;
   color: #474747;
   align-items: center;
-
 }
-nav li{
+nav li {
   list-style: none;
-  margin-right: 50px;
-  color: #474747
-  
+  margin-right: 20px;
+  color: #474747;
 }
-nav a{
+nav a {
   text-decoration: none;
-  margin right: 50px;
-  color: #474747
+  margin-right: 30px;
+  color: #474747;
 }
+/* header related style */
+.header {
+  background-color: #fff8f3;
+}
+.banner{
+  padding: 30px 30px 30px 150px;
+  display: flex;
+}
+.banner .profile-pic{
+  width: 584px;
+  height: 676px;
+}
+
+/* style the form */
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 200px;
+}
+.form h1 {
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.form input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #474747;
+}
+.form button {
+  padding: 10px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+/* footer related style */
